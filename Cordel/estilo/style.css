@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+
+:root {
+    --font-texto: 'Sriracha', cursive;
+
+    --font-titulo: 'Passion One', cursive;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    margin: 0px;
+    margin-top: 0px;
+    height: 140px;
+    width: 100%;
+    text-align: center;
+
+}
+
+header > h1{
+    color: #fff;
+    font-family: var(--font-titulo);
+    font-weight: bolder;
+    font-size: 3em;
+    margin: 0px;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+header > p{
+    color: #fff;
+}
+
+header > p > a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+#fonte{
+    font-family: var(--font-texto);
+    font-weight: normal;
+    font-size: 1.4em;
+    line-height: 2em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+#fonteimg{
+    font-family: var(--font-texto);
+    font-weight: normal;
+    font-size: 1.4em;
+    line-height: 2em;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+div{
+    width: 100%;
+}
+
+.fundo1{
+    background-image: url(../imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 1366px;
+    height: 625px;
+}
+
+.fundo2{
+    background-image: url(../imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 1366px;
+    height: 625px;
+}
+
+.box1{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.13);
+    width: 310px;
+    padding-top: 0px;
+    padding-left: 50px;
+    top: 650px;
+    left: 80px;
+}
+
+.box2{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.13);
+    width: 310px;
+    padding-top: 0px;
+    padding-left: 50px;
+    top: 2450px;
+    left: 80px;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 25px;
+}
+
+footer > p{
+    padding: 5px;
+}
+/*div{
+    background-image: url('/imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    width: 100%;
+} /*
+
